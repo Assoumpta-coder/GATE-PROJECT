@@ -54,7 +54,6 @@ body {
   
  .image-container {
   max-width: 100%; 
-    
     background-image: url('2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2 (1).jpeg');
     background-size: 100%;
     text-align: center;
@@ -74,7 +73,7 @@ background-color: rgb(241, 240, 240);
 padding: 20px;
 border-radius: 20px;
 width: 90%;
-position:sticky !important;
+position:sticky;
  }
 
  .button-container button {
@@ -125,6 +124,219 @@ position:sticky !important;
  margin-top: -75px;
  margin-right: 20px;
  }
- 
 
+ div .row1 {
+border-radius: 20px;
+ }
+
+ #card-container1 {
+  display:flex;
+  flex-flow: row;
+  gap:40px;
+ }
+
+ .cards1 {
+  border-radius: 20px;
+  border:1px solid #dfe0e4;
+  font-size: 20px;
+ }
+
+ .cities {
+  border-radius: 20px 20px 0px 0px;
+ }
+ #card-container2 {
+  display:flex;
+  flex-flow: row;
+  gap:50px;
+ }
+
+
+ .vacation-places {
+  border-radius: 20px;
+ }
+
+ #image1 {
+  background-image: url("/Second Row/Firstt.avif");
+  background-size: 170%;
+}
+#image2 { 
+  background-image: url("/Second Row/Secondd.jpg");
+  background-size: 120%;
+}
+#image3 { 
+  background-image: url("/Second Row/Third.jpg");
+}
+#image4 { 
+  background-image: url("/Second Row/Fourth.jpg");
+}
+
+.cards2 {
+  border-radius: 20px;
+  background-size: 100%;
+  width:500px;
+  padding-top: 400px;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+ }
+
+ .row4 {
+  border-radius: 30px;
+ }
+
+ .row4-image {
+  border-radius: 30px;
+ }
+
+ #large1 {
+  margin-right: 100px;
+ }
+
+ .big-images {
+  display: flex;
+  flex-flow: row;
+ }
+
+ .frame-bttn {
+  background-color: #227950;
+
+ }
+
+ .frame-picture {
+  border-radius: 30px;
+ }
+
+ .frame-heading {
+  width:400px;
+ }
+ .frame-paragraph {
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+ }
+ .frame-smallparagraph {
+  font-size: 16px;
+
+ }
+ .frame-text {
+  display: flex;
+  gap:30px;
+  margin-top: 18px;;
+ }
+
+ .frame-paragraph1 {
+  font-size: 20px;;
+ }
+
+ .row-frames {
+  display:flex;
+  flex-flow: row;
+  gap:40px;
+ }
+
+ #pic1 {
+background-image: url("/Sixth Row/Accomodation1.jpg");
+ }
+
+ #pic2 {
+  background-image: url("/Sixth Row/Accomodation2.jpg");
+ }
+
+ #pic3 {
+  background-image: url("/Sixth Row/Accomodation3.jpg");
+ }
+
+ #pic4 {
+  background-image: url("/Sixth Row/Accomodation4.jpg");
+ }
+
+ .segment6 {
+  border-radius: 30px;
+  background-size: 100%;
+  width:300px;
+  padding-top: 350px;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+ }
+#row6-text {
+  width:300px ;
+  height:200px;
+  padding-right: 20px;
+}
+#accomodations {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+} 
+
+
+.row6 {
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 15px;
+  width:90%;
+}
+#section7 {
+  display: flex;
+  margin-top: 40px;
+  width:2000px;
+  font-size: 20px;
+  gap: 60px;
+}
+
+#eight-section {
+  background-image: url("/Eight Section/Girll.avif");
+  background-size:100% ;
+  height: 990px;
  
+}
+
+#eight-text {
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  position: relative;
+  top: 120px;
+  left: 80px;
+  border-radius: 18px;
+  h1{
+    font-size: 40px;
+    margin: 12px;
+  }
+  p{
+    margin: 12px;
+  }
+  button{
+    background-color: gray;
+    padding: 12px;
+  }
+}
+
+#nineth-text {
+  font-size: 23px;
+}
+
+.dropdownn {
+  float:right;
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(238, 236, 236);
+}
+
+#logo-footer {
+font-color:#5398E5;
+font-size: 35px;
+font-weight: bold;
+}
+
+.anchors {
+  display: block;
+}
