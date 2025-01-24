@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif; 
+  }
+  
+  nav {
+    background-color: #fff; /* White background */
+    border-bottom: 1px solid #ccc; /* Light gray border */
+    padding: 10px 0; /* Top and bottom padding */
+  }
+  
+  .logo {
+    float: left; /* Position logo to the left */
+    margin-right: 20px; 
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for the logo */
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333; /* Dark gray text color */
+  }
+  
+  /* Optional: Hover effect */
+  nav a:hover {
+    color: #007bff; /* Change color on hover */
+  }
